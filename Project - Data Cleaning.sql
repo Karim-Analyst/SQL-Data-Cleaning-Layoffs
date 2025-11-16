@@ -1,11 +1,10 @@
+-- Data Cleaning 
+
 SELECT *
 FROM data_type.layoffs;
--- Data cleaning
 
--- 1. Remove Duplicates
--- 2. Standardize the Date
--- 3. Null values or blank values
--- 4. Remove Any columns or Rows
+-- first thing we want to do is create a staging table. This is the one we will work in and clean the data. We want a table with the raw data in case something happens
+
 
 CREATE TABLE new_table
 like layoffs;
@@ -16,6 +15,15 @@ FROM new_table;
 INSERT new_table
 SELECT *
 FROM layoffs;
+
+-- Now when we are data cleaning we usually follow a few steps
+-- 1. Check for duplicates and remove any
+-- 2. Standardize data and fix errors
+-- 3. Look at null values and see what 
+-- 4. Remove any columns and rows that are not necessary - few ways
+
+-- 1. Remove Duplicates
+--First let's check for duplicates
 
 SELECT *,
 ROW_NUMBER ()
@@ -69,7 +77,6 @@ DELETE
 FROM new_table1
 WHERE row_num > 1;
 
--- 2. STANDARDIZING THE DATA
 
 SELECT DISTINCT company
 FROM new_table1
