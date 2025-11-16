@@ -44,7 +44,9 @@ Focus: Data Cleaning, Data Preparation, ETL Fundamentals
 
 Outcome
 ✅ Transformed raw, inconsistent data into a clean dataset ready for analysis.
+
 ✅ Practiced real-world SQL data cleaning techniques used in data analytics.
+
 ✅ Strengthened ETL and data wrangling skills in MySQL.
 
 ✅ Transformed raw, inconsistent data into a clean dataset ready for analysis.
