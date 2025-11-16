@@ -1,5 +1,5 @@
 # SQL-Data-Cleaning-Layoffs
-SQL Data Cleaning Project — Layoffs Dataset (Guided by Alex The Analyst)
+## SQL Data Cleaning Project — Layoffs Dataset (Guided by Alex The Analyst)
 
 This project is a guided SQL data cleaning exercise by Alex The Analyst, where I implemented a complete data cleaning workflow on a real-world layoffs dataset.
 The dataset contains information about company layoffs across industries, countries, and funding stages.
